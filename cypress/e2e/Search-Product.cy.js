@@ -6,7 +6,6 @@ describe('Searh Product', () => {
       cy.get('#email').type('hanbewok46@gmail.com')
       cy.get('#pass').type('Hanbewok*46')
       cy.wait(1000)
-      // Click Search Box
       cy.get('.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .actions-toolbar > div.primary > #send2').click()
       // Ketik Jacket 
       cy.get('#search').type('Jacket').click()
